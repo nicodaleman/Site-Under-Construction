@@ -1,9 +1,9 @@
 body{
   font-family: 'Catamaran', sans-serif;
-  background:#333; /*Black*/
+  background:#fafafa; /*White*/
 }
 p{
-  color: #AAAAAA; /*Light Grey*/
+  color: #333; /*Black*/
 }
 a{
    color: #D4C16A; /*Yellow*/
@@ -21,8 +21,10 @@ label{
   color: #2B8107; /*Green*/
 }
 
+
+
 #allbar{
-  background-color: #3CB707; /*Light Green*/
+  background-color: #2B8107; /*Green*/
   color: #333; /*Black*/
 }
 #navigationbar{
@@ -33,28 +35,30 @@ label{
   color: #D4C16A; /*Yellow*/
 }
 #itson{
-  background:#333; /*Black*/
+  background:#f7f7f7; /*White*/
   color: #2B8107; /*Green*/
 }
 #exlink li a:hover{
-  color: #429c08;
+  color: #429c08; /*Yellow*/
   text-decoration: none;
 }
 #maxlogo {
   padding: 0;
   vertical-align: middle;
-  
+
 }
 
 .jumbotron {
-    background-color: #333; /*Black*/
+    background-color: #f7f7f7; /*White*/
     color: #2B8107; /*Green*/
     border: none;
 }
 .well{
-  background-color: #333; /*Black*/
+  background-color: #f7f7f7; /*White*/
   color: #AAAAAA; /*Light Grey*/
   border: none;
+  border-top: none;
+
 }
 .navbar {
   border: none;
@@ -68,13 +72,13 @@ label{
     color: #D4C16A; /*Yellow*/
 }
 ul.nav.navbar-nav li a{
-  background-color: #3CB707; /*Light Green*/
+  background-color: #2B8107; /*Green*/
   color: #333; /*Black*/
 }
 .navbar-default .navbar-brand {
-  background-color: #3CB707; /*Light Green*/
+  background-color: #2B8107; /*Green*/
   color: #333; /*Black*/
-    decoration: none;
+  decoration: none;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -93,9 +97,7 @@ ul.nav.navbar-nav li a{
     margin-right: auto;
 
 }
-.panel {
 
-}
 .panel > .panel-heading {
   background:#2B8107; /*Green*/
   color: #D4C16A; /*Yellow*/
@@ -104,8 +106,8 @@ ul.nav.navbar-nav li a{
 
 }
 .panel-body {
-  background-color: #333; /*Black*/
-  color: #AAAAAA; /*Light Grey*/
+  background-color: #f7f7f7; /*White*/
+  color: #333; /*Black*/
   box-shadow: none;
   padding: none;
 }
