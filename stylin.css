@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+body{
+  font-family: 'Catamaran', sans-serif;
+  background:#f7f7f7; /*White*/
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+p{
+  color: #333; /*Black*/
+  text-align: left;
+}
+a{
+   color: #2B8107; /*Green*/
+   text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #333; /*Black*/
+  text-align: center;
+}
+img {
+    max-width: 120%;
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+img:hover {
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+
+label{
+  color: #AAAAAA; /*Light Grey*/
+}
+
+footer {
+ color: #AAAAAA; /*Light Grey*/
+ background-color: #333; /*Black*/
+ text-align: right;
+ text-indent: 5px;
+ font-size: 14;
+ }
+footer p {
+   color: #AAAAAA; /*Light Grey*/
+   margin-top: 1.5em;
+}
+
+footer a {
+  text-decoration: none;
+  text-align: left;
+}
+
+footer li {
+  text-decoration: none;
+  text-align: left;
+}
+
+#Home {
+  background: none;
+  color: #333; /*Black*/
+  border: none;
+}
+#allbar{
+  background-color: #333; /*Black*/
+  color: #AAAAAA; /*Light Grey*/
+  padding: 0;
+}
+#navigationbar{
+  padding: 0;
+  background-color: #333; /*Black*/
+  color: #AAAAAA; /*Light Grey*/
+}
+#opener{
+  background-color: #333; /*Black*/
+  color: #AAAAAA; /*Light Grey*/
+}
+#itson{
+  background:#f7f7f7; /*White*/
+  color: #2B8107; /*Green*/
+}
+
+#Maxmsp,
+#Sound,
+#Video {
+  padding-top: 50px; }
+
+/* Sets the height of each section as a compelte page...*/
+.home-section {
+  position: relative;
+  height: 105vh;
+  padding-top: 150px;
+  background:url(Background.jpg) no-repeat center;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.works-section {
+  position: relative;
+  height: 100vh;
+  padding-top: 150px;
+}
+
+.blog-section {
+  position: relative;
+  height: 100vh;
+  padding-top: 150px;
+}
+.about-section {
+  position: relative;
+  height: 100vh;
+  padding-top: 60px;
+}
+/* ...until here*/
+
+.well{
+  background-color: #f7f7f7; /*White*/
+  color: #AAAAAA; /*Light Grey*/
+  border: none;
+  border-top: none;
+
+}
+.navbar {
+  border: none;
+  color: #AAAAAA; /*Light Grey*/
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #AAAAAA; /*Light Grey*/
+}
+
+
+/*.hometext {
+  z-index: 100;
+  position: absolute;
+  left:100px;
+  top:150px;
+
+}
+
+h1.hometext {
+  left:100px;
+  top:100px;
+}*/
+
+.panel{
+  border: none;
+  box-shadow: none;
+  border-color: none;
+
+}
+
+.panel > .panel-heading {
+  background-color:  #AAAAAA; /*Light Grey*/
+  color: #333; /*Black*/
+  border-radius: 0;
+}
+
+.panel > .panel-heading h3  {
+  text-align: left;
+}
+
+.panel > .panel-body {
+  background-color: #f7f7f7; /*White*/
+  color: #333; /*Black*/
+  border: none;
+  box-shadow: none;
+  border-color: none;
+
+}
+
+
+/*Social media stuff*/
+
+/*.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}*/
+/*.list-inline li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}*/
+.social-icons .fa {
+	font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: right;
+  text decoration: none;
+	color: #AAA;
+}
+
+.social-icons .fa:hover, {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333;
+  text-decoration: none;
+}
+
+/*
+.social-icons .fa-adn{background-color:#504e54;}
+.social-icons .fa-apple{background-color:#aeb5c5;}
+.social-icons .fa-android{background-color:#A5C63B;}
+.social-icons .fa-bitbucket,.social-icons .fa-bitbucket-square{background-color:#003366;}
+.social-icons .fa-bitcoin,.social-icons .fa-btc{background-color:#F7931A;}
+.social-icons .fa-css3{background-color:#1572B7;}
+.social-icons .fa-dribbble{background-color:#F46899;}
+.social-icons .fa-dropbox{background-color:#018BD3;}
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3b5998;}
+.social-icons .fa-flickr{background-color:#FF0084;}
+.social-icons .fa-foursquare{background-color:#0086BE;}
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}
+.social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;}
+.social-icons .fa-html5{background-color:#E54D26;}
+.social-icons .fa-instagram{background-color:#A1755C;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;}
+.social-icons .fa-linux{background-color:#FBC002;color:#333;}
+.social-icons .fa-maxcdn{background-color:#F6AE1C;}
+.social-icons .fa-pagelines{background-color:#241E20;color:#3984EA;}
+.social-icons .fa-pinterest,.social-icons .fa-pinterest-square{background-color:#CC2127;}
+.social-icons .fa-renren{background-color:#025DAC;}
+.social-icons .fa-skype{background-color:#01AEF2;}
+.social-icons .fa-stack-exchange{background-color:#245590;}
+.social-icons .fa-stack-overflow{background-color:#FF7300;}
+.social-icons .fa-trello{background-color:#265A7F;}
+.social-icons .fa-tumblr,.social-icons .fa-tumblr-square{background-color:#314E6C;}
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
+.social-icons .fa-vimeo-square{background-color:#229ACC;}
+.social-icons .fa-vk{background-color:#375474;}
+.social-icons .fa-weibo{background-color:#D72B2B;}
+.social-icons .fa-windows{background-color:#12B6F3;}
+.social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;}
+.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+*/
