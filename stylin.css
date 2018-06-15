@@ -211,6 +211,14 @@ h1.hometext {
 	color: #AAA;
 }
 
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: right;
+  text decoration: none;
+	color: #AAA;
+}
 .social-icons .fa:hover, {
 	color: #FFF;
 	-webkit-box-shadow: 1px 1px 3px #333;
@@ -218,7 +226,9 @@ h1.hometext {
 	box-shadow: 1px 1px 3px #333;
   text-decoration: none;
 }
-
+.social-icons .fa-github {
+  font-size: 8em;
+}
 /*
 .social-icons .fa-adn{background-color:#504e54;}
 .social-icons .fa-apple{background-color:#aeb5c5;}
