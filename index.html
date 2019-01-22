@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Nico Daleman</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,500italic' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="/static/personal/favicon.ico" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylin.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <div id="wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top" id="allbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <h4 style="color: #AAAAAA"> Nico Daleman </h4>
+          <h5 style="color: #AAAAAA">Sound Artist - Musicologist</h5>
+        </div>
+        <div class="collapse navbar-collapse" id="navigationbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#Works">Works</a></li>
+            <li><a href=about.html>About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!--Home Section-->
+<!-- <section class= "home-section" >
+  <div class = "well" id="Home">
+    <h1 class= "hometext"> Nico Daleman </h1>
+    <h3 class= "hometext"> Sound Artist - Musicologist</h3>
+  </div>
+</section> -->
+<!-- Home Section End-->
+
+<!--Work Section-->
+
+<section class= "work-section" id="Works">
+    <div class="container">
+        <div class="row">
+    <h2 > Works </h2>
+      <div id="myBtnContainer">
+        <li class="elem active" onclick="filterSelection('all')"> All</li>
+        <li class="elem" onclick="filterSelection('pieces')"> Pieces</li>
+        <li class="elem" onclick="filterSelection('interpretations')"> Interpretations</li>
+        <li class="elem" onclick="filterSelection('pedagogical')"> Pedagogical</li>
+        <li class="elem" onclick="filterSelection('devices')"> Devices</li>
+        <li class="elem" onclick="filterSelection('other')"> Other</li>
+      </div>
+    </br>
+    </br>
+    </br>
+    <div id="portafoliolist">
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter pieces">
+        <div class="portfolio-wrapper">
+          <p>Modulating Spaces </p>
+          <a href="modulatingspaces.html">
+            <div class="img-wrapper">
+              <img src="" class="img-responsive" alt="">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter pieces">
+        <div class="portfolio-wrapper">
+          <p>Drop the Bass (in Progress) </p>
+          <a href="https://github.com/nicodaleman/Max-Portfolio/blob/master/dropTheBassSketch.maxpat">
+            <div class="img-wrapper">
+              <img src="pics/dropTheBass.jpg" class="img-responsive" alt="">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div  class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter pedagogical">
+        <div class="portfolio-wrapper">
+          <p>MaxMSP Meet Up at Ableton HQ April 2018</p>
+          <div class="img-wrapper">
+            <img src="pics/maxMeetup.jpg" class="img-responsive"  alt="Image">
+          </div>
+        </div>
+      </div>
+      <div  class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter pedagogical">
+        <div class="portfolio-wrapper">
+          <p>Music Theory for Non-Musicians</p>
+          <a href="https://github.com/nicodaleman/Max-Portfolio/blob/master/tonnetzMultichannel.maxpat">
+            <div class="img-wrapper">
+              <img src="pics/musicTheoryForNonMusicians.jpg" class="img-responsive"  alt="Image">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter devices">
+        <div class="portfolio-wrapper">
+          <p>Cellular Automaton</p>
+          <a href="https://github.com/nicodaleman/Max-Portfolio/blob/master/sonicCellularAutomaton.maxpat">
+            <div class="img-wrapper">
+              <img src="pics/cellularAutomaton.jpg" class="img-responsive"  alt="Image">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter pedagogical">
+        <div class="portfolio-wrapper">
+          <p>Ear Training for Soundies</p>
+          <a href="https://github.com/nicodaleman/Max-Portfolio/blob/master/earTrainingForSoundies.maxpat">
+            <div class="img-wrapper">
+              <img src="pics/eartraining.jpg" class="img-responsive"  alt="Image">
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter pedagogical">
+        <div class="portfolio-wrapper">
+          <p>Pitch and Rhythm Matrix</p>
+          <a href="https://github.com/nicodaleman/Max-Portfolio/blob/master/totalSerialismConsolidation.maxpat">
+            <div class="img-wrapper">
+              <img src="pics/pitchAndRhythm.jpg" class="img-responsive" alt="Image">
+            </div>
+
+          </a>
+        </div>
+      </div>
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filterpedagogical">
+        <div class="portfolio-wrapper">
+          <p>Shephard Tone - Continuity effect</p>
+          <a href="https://github.com/nicodaleman/Max-Portfolio">
+            <div class="img-wrapper">
+              <img src="https://placehold.it/120x120?text=IMAGE" class="img-responsive" style="height: 80px" alt="Image">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter interpretations">
+        <div class="portfolio-wrapper">
+          <p>My Name is ... </p>
+          <a href="https://github.com/nicodaleman/Max-Portfolio">
+            <div class="img-wrapper">
+              <img src="pics/mynameis.jpg" class="img-responsive"  alt="Image">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter pieces">
+        <div class="portfolio-wrapper">
+          <p>Ascencion</p>
+          <a href="https://github.com/nicodaleman/Max-Portfolio">
+            <div class="img-wrapper">
+              <img src="https://placehold.it/120x120?text=IMAGE" class="img-responsive"  alt="Image">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter pieces">
+        <div class="portfolio-wrapper">
+          <p>Lambda Epsilon</p>
+          <a href="https://github.com/nicodaleman/Max-Portfolio">
+            <div class="img-wrapper">
+              <img src="pics/lambda.jpg" class="img-responsive"  alt="Image">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter pieces">
+        <div class="portfolio-wrapper">
+          <p>5 Flagg</p>
+          <a href="https://github.com/nicodaleman/Max-Portfolio">
+            <div class="img-wrapper">
+              <img src="pics/5flaggmax.jpg" class="img-responsive" alt="Image">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-6 filter pieces">
+        <div class="portfolio-wrapper">
+          <a href="https://github.com/nicodaleman/Max-Portfolio">
+            <p>Glitched-On Back</p>
+            <div class="img-wrapper">
+              <img src="https://placehold.it/120x120?text=IMAGE" class="img-responsive" alt="Image">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section>
+<footer class= "container-fluid">
+  <div class="row">
+  <p class="col-sm-4"> Nico Daleman © 2018 All rights reserved</p>
+    <ul class="social-icons icon-flat list-unstyled list-inline col-sm-8" style="list-style: none" id="social">
+      <li class="col-md-1 col-md-offset-7"><a href="https://github.com/nicodaleman/Max-Portfolio" class="fa fa-github"></a></li>
+      <li class="col-sm-1 "><a href="https://www.facebook.com/ndaleman" class="fa fa-facebook"></a></li>
+      <li class="col-sm-1"><a href="https://www.instagram.com/nicodaleman/" class="fa fa-instagram"></a></li>
+      <li class="col-sm-1"><a href="https://soundcloud.com/nicodaleman" class="fa fa-soundcloud"></a></li>
+      <li class="col-sm-1"><a href="https://vimeo.com/nicodaleman" class="fa fa-vimeo"></a></li>
+    </ul>
+  </div>
+  </footer>
+  </section>
+</div>
+
+<script>
+filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("elem");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+
+</html>
